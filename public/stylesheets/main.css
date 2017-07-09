@@ -116,5 +116,5 @@ a {
   background: white;
   padding: 10px 15px; }
 
-.site-footer {
-  color: white; }
+.site-footer a {
+  color: green !important; }
