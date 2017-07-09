@@ -22,7 +22,8 @@ a {
   bottom: 0px; }
 
 .site-footer {
-  margin-top: 40px; }
+  margin-top: 40px;
+  padding-bottom: 40px; }
 
 .site-footer__nav {
   position: relative;
@@ -44,7 +45,7 @@ a {
 
 .top-section {
   background: #7B7B7B;
-  height: 450px;
+  min-height: 450px;
   text-align: center; }
 
 .banner__name {
@@ -93,7 +94,7 @@ a {
 
 .main-section {
   background: #383838;
-  height: 600px;
+  min-height: 600px;
   padding-top: 20px; }
 
 .main-section__portfolio,
@@ -111,7 +112,7 @@ a {
 
 .contact__content,
 .portfolio__content {
-  height: 200px;
+  min-height: 200px;
   background: white;
   padding: 10px 15px; }
 
