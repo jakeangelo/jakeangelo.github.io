@@ -1,0 +1,67 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width')
+    title Jake Angelo
+    link(rel='stylesheet', href='../public/stylesheets/main.css')
+    style(type='text/css').
+      body{
+      font-family: helvetica, ubuntu, courier;
+      font-size: 16px;
+      }
+  body
+    .side-header
+      ul.site-header__nav
+        li.site-header__nav-item
+          .black-box
+        li.site-header__nav-item
+          a(href='#') Home
+        li.site-header__nav-item
+          a(href='#portfolio') Portfolio
+        li.site-header__nav-item
+          a(href='#contacts') Contacts
+
+
+
+    .top-section
+      .site-container
+        .banner__name
+          | JAKE ANGELO JIMENEZ
+        .banner__line
+        .banner__pitch
+          p Hi I'm Jake a computer animator based in Manila. The following describes me best:
+
+          ul.banner__pitch-character
+            li Passionate about what I'm doing | 
+            li Highly motivated | 
+            li And ready to conquer the world
+
+        .banner__actions-container
+          a.banner__download-resume(href='#') résumé
+
+    .main-section
+      .site-container
+        .main-section__portfolio#portfolio
+          .portfolio__header PORTFOLIO
+          .portfolio__content
+        .main-section__contact#contacts
+          .contact__header CONTACT INFORMATION
+          .contact__content
+            p
+              | Email: jakeangeloj@gmail.com
+            p
+              | Mobile: +639179362973
+            p
+              | Linkedin: 
+
+        .site-footer
+          ul.site-footer__nav
+            li.site-footer__nav-item
+              a(href='#') Home
+            li.site-footer__nav-item
+              a(href='#portfolio') Portfolio
+            li.site-footer__nav-item
+              a(href='#contacts') Contacts
+
+
